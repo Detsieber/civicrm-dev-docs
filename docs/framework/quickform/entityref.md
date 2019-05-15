@@ -27,7 +27,7 @@ using jQuery on the client-side.
 $this->addEntityRef('field_1', ts('Select Contact'));
 
 // Pass some params to allow creation of contacts, set multiple and make the field required
-$this->addEntityRef('field_2', ts('Select More Contacts'), array('create => TRUE', 'multiple' => TRUE), TRUE);
+$this->addEntityRef('field_2', ts('Select More Contacts'), array('create' => TRUE, 'multiple' => TRUE), TRUE);
 
 // Set some filters in the api (in this case limit results by contact type)
 $this->addEntityRef('field_3', ts('Select Organization'), array(
